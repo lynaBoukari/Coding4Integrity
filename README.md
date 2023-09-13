@@ -2,7 +2,8 @@
 
 ## Overview
 
-This repository contains the source code and documentation for an anti-leakage solution aimed at reducing the risk of exam paper leakage. The platform is designed to ensure that exam papers are not accessible or viewable until the specified time of reveal, thus minimizing the opportunity for leaks.
+This repository contains the source code and documentation for an anti-leakage solution aimed at reducing the risk of exam paper leakage. The platform is designed to generate calibrated and fair exam papers using exercises or questions suggested by teachers. It ensures that exam papers are not accessible or viewable by teachers until the specified time of reveal, thus minimizing the opportunity for leaks. The generated exam papers satisfy multiple constraints, including maximum points, a specific number of exercises, different chapters and a calibrated level of difficulty. 
+
 
 ## Key Features
 
@@ -18,6 +19,8 @@ This repository contains the source code and documentation for an anti-leakage s
 
 - **ML Model**: Classifies exercise difficulty levels and updates exercise metadata.
 
+- **Neural Network Model**: A neural network model is employed to classify exercise difficulty levels based on exercise text data. This model helps in automating the process of categorizing exercises as Easy, Medium, or Hard.
+
 ## Usage
 
 1. Admins or Coordinators assign exercise upload tasks to teachers.
@@ -26,11 +29,12 @@ This repository contains the source code and documentation for an anti-leakage s
 
 3. The ML model classifies exercise difficulty levels and updates exercise metadata.
 
-4. Use the Genetic Algorithm with Knowledge Graph to generate optimized exam papers.
+4. The Neural Network model classifies exercise difficulty levels based on exercise text data.
 
-5. Exam papers are securely stored in Microsoft Cloud and remain inaccessible until the designated time of reveal.
+5. Use the Genetic Algorithm with Knowledge Graph to generate optimized exam papers.
 
+6. Exam papers are securely stored in Microsoft Cloud and remain inaccessible until the designated time of reveal.
 
 ---
 
-This revised README highlights the core functionalities and the key benefit of the platform, which is to reduce the risk of exam leakage to a small time window during the distribution and printing of exam papers.
+This revised README now includes a section dedicated to the Neural Network model, explaining its purpose and contribution to the platform.
