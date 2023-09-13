@@ -24,16 +24,11 @@ This repository contains the source code and documentation for an anti-leakage s
 
 1. Admins or Coordinators assign exercise upload tasks to teachers.
 
-2. Teachers upload exercises, including a PDF file and associated details.
+2. Teachers upload exercises PDF file and associated details (points, chapter).
 
-3. The ML model classifies exercise difficulty levels and updates exercise metadata.
+3. The Neural Network model classifies exercise difficulty levels based on exercise text data and updates exercise metadata (adds diffculty level).
 
-4. The Neural Network model classifies exercise difficulty levels based on exercise text data.
-
-5. Use the Genetic Algorithm with Knowledge Graph to generate optimized exam papers.
+4. The Genetic Algorithm is used with Knowledge Graph to generate optimized exam papers that satisfies the multicontrains.
 
 6. Exam papers are securely stored in Microsoft Cloud and remain inaccessible until the designated time of reveal.
 
----
-
-This revised README now includes a section dedicated to the Neural Network model, explaining its purpose and contribution to the platform.
