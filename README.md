@@ -7,17 +7,16 @@ This repository contains the source code and documentation for an anti-leakage s
 
 ## Key Features
 
-- **Secure Exam Paper Management**: Exam papers are securely stored and cannot be accessed until the designated time.
+- **Intelligent Exercise Classification:** The ML model plays a pivotal role in the exam paper generation process. It classifies exercise difficulty levels, ensuring that the resulting papers are well-balanced in terms of complexity. This categorization is a critical step in creating fair and calibrated exam papers.
+
 
 - **Efficient Paper Generation**: The platform uses a Genetic Algorithm and Knowledge Graph to automatically create exam papers that meet predefined criteria, such as a balanced distribution of exercises, total points, and chapters.
+
+- **Secure Exam Paper Management**: Exam papers are securely stored and cannot be accessed until the designated time.
 
 - **User Roles**:
   - **Admin/Coordinator**: Assigns exercise upload tasks to teachers.
   - **Teachers**: Upload exercises to the platform.
-
-- **Exercise Metadata**: Stores exercise information, including ID, name, points, chapter, and a link to the uploaded PDF.
-
-- **ML Model**: Classifies exercise difficulty levels and updates exercise metadata.
 
 - **Neural Network Model**: A neural network model is employed to classify exercise difficulty levels based on exercise text data. This model helps in automating the process of categorizing exercises as Easy, Medium, or Hard.
 
